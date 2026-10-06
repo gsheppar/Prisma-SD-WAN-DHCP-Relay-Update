@@ -4,15 +4,6 @@ Updates DHCP relay server IPs on LAN interfaces across Prisma SD-WAN branch site
 
 ---
 
-## Scripts
-
-| Script | Purpose |
-|--------|---------|
-| `update_dhcp_relay.py` | Reads a CSV and updates DHCP relay IPs on matching LAN interfaces |
-| `get_ips.py` | Exports all interface IPs to `interface_ip.csv` (read-only audit) |
-
----
-
 ## Prerequisites
 
 - Python 3.8+
